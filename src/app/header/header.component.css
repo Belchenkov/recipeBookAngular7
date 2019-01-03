@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Kaushan+Script');
+
+.navbar-header {
+  display: inline-flex;
+  text-shadow: 0 0 5px #000;
+}
+
+.navbar-logo {
+  padding-top: 7px;
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  display: inline-block;
+  font-family: 'Kaushan Script', cursive;
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+.navbar-inverse {
+  background: #ff354d;
+}
+
+.nav.navbar-nav {
+  font-family: 'Acme', sans-serif;
+  text-shadow: 0 0 5px #000;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+}
+
+.navbar-link-text {
+  padding-top: 7px;
+}
