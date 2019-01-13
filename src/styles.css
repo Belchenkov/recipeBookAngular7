@@ -2,6 +2,11 @@ html, body {
   font-size: 16px;
 }
 
+body {
+  background: url("./assets/img/food.png");
+  /*background: url("./assets/img/doodles.png");*/
+}
+
 .mr-5 {
   margin-right: 5px;
 }
