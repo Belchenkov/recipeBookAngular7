@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,700');
+
 html, body {
   font-size: 16px;
 }
 
 body {
   background: url("./assets/img/food.png");
+  font-family: 'Titillium Web', sans-serif;
   /*background: url("./assets/img/doodles.png");*/
 }
 
@@ -13,4 +16,8 @@ body {
 
 .mb-10 {
   margin-bottom: 10px;
+}
+
+.btn {
+  text-shadow: 0 0 3px #000000;
 }
