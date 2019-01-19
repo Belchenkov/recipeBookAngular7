@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,700');
+
+html, body {
+  font-size: 16px;
+}
+
+body {
+  background: url("./assets/img/food.png");
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  text-shadow: 0 0 3px #000000;
+}
