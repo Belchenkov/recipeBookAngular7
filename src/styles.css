@@ -9,6 +9,11 @@ body {
   font-family: 'Titillium Web', sans-serif;
 }
 
+.img-styles {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
 .mr-5 {
   margin-right: 5px;
 }

@@ -36,3 +36,11 @@
 .navbar-link-text {
   padding-top: 7px;
 }
+
+.dropdown-menu {
+  text-shadow: none;
+}
+
+.navbar-inverse .navbar-nav>.open> a {
+  background: transparent;
+}
