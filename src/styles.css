@@ -25,3 +25,7 @@ body {
 .btn {
   text-shadow: 0 0 3px #000000;
 }
+
+.cursor {
+  cursor: pointer;
+}
