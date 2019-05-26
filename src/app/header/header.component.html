@@ -4,7 +4,7 @@
       <div class="navbar-logo">
         <img src="https://img.icons8.com/doodle/48/000000/cooking-book.png">
       </div>
-      <a href="#" class="navbar-brand">
+      <a routerLink="recipes" class="navbar-brand">
         Recipe Book
       </a>
     </div>
@@ -12,9 +12,8 @@
       <ul class="nav navbar-nav">
         <li>
           <a
-            href="#"
+            routerLink="recipes"
             class="navbar-links"
-            (click)="onSelect('recipe')"
           >
             <div class="navbar-link-icon">
               <img class="mr-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ3SURBVDhPfZHbT9NgGMYXY7xRY0y48J/wxmj8EzxcmDBEkeGcQMKVN+DO7TpU2Mba1S07tFNgW1eIcwiSCJN44YRBjCKnLIaxaJShIXORDSOyxb32KwuOcXiSL+nX531+ed5WgkSq/Y2UhrOIl31EtvJVNm2QprX8d1IZKDzU9y1alNwZ0RSMH07j09/7QaxtPecoLbcW7h7/82EiBYn5n/BqcB5oHZ+UdN3tPWXH+nLx6TS474V/VULMavYErQ1mJiIJSMZz2+fjTAZIVaAg0ANHKXVgc2khC3tBrCq/1EeN5MrD6Ey/+Qq0nk+JQ0KV2bGB2b/IqIRY23yXvOahbCUgxEY3bJpguwigVD2nhcB6bGxJNMshCECpuMLM5Mp2eHx0EWxaLm3S8CdFAJKwynlbJeR+eMOm5fMj/e8AQdiOwVwv9WINhS1K/9lS9L/2gjAdz0CoWiBV/gtC6DKp9F2xKB8fL0V2awsSKMRe7mxCaYKm0sjBcmEt0UeEQvjHPhjmpoCzR/Loi3uM+k031jgHEuJQaXSnkOHCm+a5zupi6rUOuo1yoDVUskvJ2V0GXT7QWQ39lqvgwW99CtUSR0qxLaEXDKb4jAZWx3EImqTg1jXHSrbEpW+e5M01kI4ZIGyrK7KYbNVJEMdEEz0w+M3VMHW9mJkywhNrLbgxRVw0y8TgtxMh8lox+7YdnjtkwOB1WZJorRKMpuUhRz0gY4C+IVSUf9lrT4IgDjO4fAXNrr9/ABGPHLwGWUbCGmqKC4N3YNjZAAwmS+/ar0yoLYvXr0UYOXyL6oX5iyBx6PS8F5cWGVyxvL3XAUK1WUNDBoU9eMvoP9302HwAkjCTAAAAAElFTkSuQmCC">
@@ -26,7 +25,7 @@
           <a
             href="#"
             class="navbar-links"
-            (click)="onSelect('shopping-list')"
+            routerLink="shopping-list"
           >
             <div class="navbar-link-icon">
               <img class="mr-5" src="https://img.icons8.com/office/16/000000/edit-property.png">
