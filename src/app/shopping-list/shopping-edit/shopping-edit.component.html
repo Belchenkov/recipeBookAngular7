@@ -33,7 +33,7 @@
             type="submit"
             [disabled]="!f.valid"
           >
-            <i class="fas fa-plus"></i> Add
+            <i class="fas fa-plus"></i> {{ editMode ? 'Update' : 'Add' }}
           </button>
           <button class="btn btn-danger mr-5" type="button">
             <i class="far fa-trash-alt"></i> Delete
