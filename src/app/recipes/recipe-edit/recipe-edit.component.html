@@ -90,7 +90,11 @@
               />
             </div>
             <div class="col-xs-2 text-right">
-              <button type="number" class="btn btn-danger">
+              <button
+                type="button"
+                class="btn btn-danger"
+                (click)="onDeleteIngredient(i)"
+              >
                 <i class="fa fa-trash"></i>
               </button>
             </div>
