@@ -1,0 +1,22 @@
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  color: #000;
+}
+
+.form-edit-recipe {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 15px;
+ }
+
+.form-btn {
+  padding-bottom: 10px;
+}
+
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
