@@ -18,12 +18,20 @@ body {
   margin-right: 5px;
 }
 
+.mr-10 {
+  margin-right: 10px;
+}
+
 .mb-10 {
   margin-bottom: 10px;
 }
 
 .mt-10 {
   margin-top: 10px;
+}
+
+.mt-40 {
+  margin-top: 40px;
 }
 
 .btn {
